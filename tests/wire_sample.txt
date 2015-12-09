@@ -1,0 +1,11 @@
+# Has a SignalExpression that's a wire
+# a: 1
+# b: 1
+# c: 3
+# d: 3
+# e: 3
+a -> b
+1 -> a
+c -> d
+d -> e
+3 -> c

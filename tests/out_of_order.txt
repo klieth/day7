@@ -1,0 +1,7 @@
+# Test a use of a wire before it is given a value
+# a: 1
+# b: 2
+# c: 3
+a OR b -> c
+1 -> a
+2 -> b

@@ -1,0 +1,11 @@
+# Tests a gate that depends on resolution of another gate
+# a: 1
+# b: 2
+# c: 0
+# d: 3
+# e: 3
+a AND b -> c
+c OR d -> e
+1 -> a
+2 -> b
+3 -> d
